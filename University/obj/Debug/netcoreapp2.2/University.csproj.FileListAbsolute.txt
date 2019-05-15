@@ -15,7 +15,6 @@
 /Users/zsuzsannamangu/Desktop/Epicodus/University.Solution/University/obj/Debug/netcoreapp2.2/University.TagHelpers.output.cache
 /Users/zsuzsannamangu/Desktop/Epicodus/University.Solution/University/obj/Debug/netcoreapp2.2/University.RazorCoreGenerate.cache
 /Users/zsuzsannamangu/Desktop/Epicodus/University.Solution/University/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
-/Users/zsuzsannamangu/Desktop/Epicodus/University.Solution/University/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs
 /Users/zsuzsannamangu/Desktop/Epicodus/University.Solution/University/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs
 /Users/zsuzsannamangu/Desktop/Epicodus/University.Solution/University/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
 /Users/zsuzsannamangu/Desktop/Epicodus/University.Solution/University/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
@@ -28,3 +27,7 @@
 /Users/zsuzsannamangu/Desktop/Epicodus/University.Solution/University/obj/Debug/netcoreapp2.2/University.dll
 /Users/zsuzsannamangu/Desktop/Epicodus/University.Solution/University/obj/Debug/netcoreapp2.2/University.pdb
 /Users/zsuzsannamangu/Desktop/Epicodus/University.Solution/University/obj/Debug/netcoreapp2.2/University.csproj.CopyComplete
+/Users/zsuzsannamangu/Desktop/Epicodus/University.Solution/University/obj/Debug/netcoreapp2.2/Razor/Views/Courses/Index.g.cshtml.cs
+/Users/zsuzsannamangu/Desktop/Epicodus/University.Solution/University/obj/Debug/netcoreapp2.2/Razor/Views/Courses/New.g.cshtml.cs
+/Users/zsuzsannamangu/Desktop/Epicodus/University.Solution/University/obj/Debug/netcoreapp2.2/Razor/Views/Students/Index.g.cshtml.cs
+/Users/zsuzsannamangu/Desktop/Epicodus/University.Solution/University/obj/Debug/netcoreapp2.2/Razor/Views/Students/New.g.cshtml.cs

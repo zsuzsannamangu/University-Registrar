@@ -1,0 +1,17 @@
+@{
+  Layout = "_Layout";
+}
+
+<h1>Add a student</h1>
+<p>Add a student here:</p>
+
+<form action="/students" method="post">
+  <label for="name">Student name</label>
+  <input id="name" name="name" type="text">
+  <label for="number">Student number</label>
+  <input id="number" name="number" type="text">
+  <button type="submit">Add</button>
+</form>
+
+<p><a href="/">Back home</a></p>
+<p><a href="/students">Back to students</a></p>

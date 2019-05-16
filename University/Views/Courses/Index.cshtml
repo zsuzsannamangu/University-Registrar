@@ -1,6 +1,6 @@
 ﻿@{
     Layout = "_Layout";
-    ViewData["Title"] = "Add a course";
+    ViewData["Title"] = "Courses";
 }
 <h1>@ViewData["Title"]</h1>
 
@@ -11,9 +11,9 @@
 
 @foreach (var course in Model)
 {
-  <h3>@course._name
-  <small>@course._number</small>
-  <small>@course._id</small>
+  <h3><a href="/courses/@course.GetCourseId()">@course._courseName</a>
+  <small>@course._courseNumber</small>
+  <small>@course._courseId</small>
   </h3>
 }
 

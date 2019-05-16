@@ -31,3 +31,5 @@
 /Users/zsuzsannamangu/Desktop/Epicodus/University.Solution/University/obj/Debug/netcoreapp2.2/Razor/Views/Courses/New.g.cshtml.cs
 /Users/zsuzsannamangu/Desktop/Epicodus/University.Solution/University/obj/Debug/netcoreapp2.2/Razor/Views/Students/Index.g.cshtml.cs
 /Users/zsuzsannamangu/Desktop/Epicodus/University.Solution/University/obj/Debug/netcoreapp2.2/Razor/Views/Students/New.g.cshtml.cs
+/Users/zsuzsannamangu/Desktop/Epicodus/University.Solution/University/obj/Debug/netcoreapp2.2/Razor/Views/Courses/Show.g.cshtml.cs
+/Users/zsuzsannamangu/Desktop/Epicodus/University.Solution/University/obj/Debug/netcoreapp2.2/Razor/Views/Students/Show.g.cshtml.cs

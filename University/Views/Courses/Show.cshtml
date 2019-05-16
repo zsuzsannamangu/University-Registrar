@@ -1,0 +1,32 @@
+@using University.Models;
+
+<h1>University Registrar</h1>
+<h2>Course: @Model["selectedCourse"]._courseName</h2>
+<hr />
+
+@if (@Model["courseStudents"].Count != 0)
+{
+  <h4>This course has these students signed up:</h4>
+  <ul>
+    @foreach (Student student in @Model["courseStudents"])
+    {
+      <li>@student._studentName, @student._studentNumber
+      </li>
+    }
+  </ul>
+}
+
+<h4>Add a student to this course:</h4>
+
+<form action='/courses/@Model["selectedCourse"].GetCourseId()/students/new' method='post'>
+  <label for='studentsId'>Select a student</label>
+  <select id='studentsId' name='studentsId' type='text'>
+    @foreach (var student in @Model["allStudents"])
+    {
+      <option value='@student.GetStudentId()'>@student._studentName</option>
+    }
+  </select>
+  <button type='submit'>Add</button>
+</form>
+
+<p><a href="/">Return to Home Page</a></p>

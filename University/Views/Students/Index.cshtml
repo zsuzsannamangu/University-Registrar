@@ -1,6 +1,6 @@
 ﻿@{
     Layout = "_Layout";
-    ViewData["Title"] = "Add a student";
+    ViewData["Title"] = "Students";
 }
 <h1>@ViewData["Title"]</h1>
 
@@ -11,9 +11,13 @@
 
 @foreach (var student in Model)
 {
-  <h3>@student._name
-  <small>@student._number</small></h3>
+  <h3><a href="/students/@student.GetStudentId()">@student._studentName</a>
+  <small>| @student._studentNumber | </small>
+  <small>@student.GetStudentId()</small>
+  </h3>
 }
+
+
 
 <p><a href='/'>Back home</a></p>
 <p><a href='/students/new'>Add a new student</a></p>

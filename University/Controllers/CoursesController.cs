@@ -31,6 +31,29 @@ namespace University.Controllers
       List<Course> allCourses = Course.GetAll();
       return View("Index", allCourses);
     }
+
+    [HttpGet("/courses/{id}")]
+    public ActionResult Show(int id)
+    {
+      Dictionary<string, object> model = new Dictionary<string, object>();
+      Course selectedCourse = Course.Find(id);
+      List<Student> courseStudents = selectedCourse.GetStudents();
+      List<Student> allStudents = Student.GetAll();
+      model.Add("selectedCourse", selectedCourse);
+      model.Add("courseStudents", courseStudents);
+      model.Add("allStudents", allStudents);
+      return View(model);
+    }
+
+    [HttpPost("/courses/{coursesId}/students/new")]
+    public ActionResult AddStudent(int coursesId, int studentsId)
+    {
+      Course course = Course.Find(coursesId);
+      Student student = Student.Find(studentsId);
+      course.AddStudent(student);
+      return RedirectToAction("Show",  new { id = coursesId });
+    }
+
   }
 
 }
